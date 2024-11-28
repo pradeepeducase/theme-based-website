@@ -3,7 +3,6 @@ import Footer from "../common/components/Footer";
 import "../common/fontawesome";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
-
 export default function Theme1Layout({ children }) {
     return (
         <html lang="en">
