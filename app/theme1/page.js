@@ -1,4 +1,5 @@
 // app/theme1/page.js
+import AboutUsSection from "../common/components/AboutUsSection";
 import CarouselWrapper from "../common/components/Carousel";
 
 export default function Theme1HomePage() {
@@ -12,7 +13,7 @@ export default function Theme1HomePage() {
             responsive: {
               0: { items: 1 },
               768: { items: 2 },
-              1024: { items: 3 },
+              1024: { items: 1 },
             },
           }}
           className="owl-carousel"
@@ -36,8 +37,8 @@ export default function Theme1HomePage() {
             <h4>6</h4>
           </div>
         </CarouselWrapper>
-        <div className="container">
-          
+        <div className="container mx-auto">
+          <AboutUsSection/>
         </div>
     </div>
     );
