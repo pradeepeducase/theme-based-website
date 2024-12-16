@@ -2,17 +2,10 @@
 
 import React from "react";
 
-interface SectionProps {
-  children: React.ReactNode;
-  backgroundColor?: string;
-  className?: string;
-  id?: string; 
-}
-
-const Section: React.FC<SectionProps> = ({
+const Section = ({
   children,
   backgroundColor = "rgb(255, 255, 255)",
-  className,
+  className = "",
   id,
 }) => {
   return (
